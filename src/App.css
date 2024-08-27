@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+  padding: 10px;
+  width: 250px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin-right: 20px;
+  font-size: 25px;
+  /* border: transparent; */
+}
+.btn{
+  padding: 10px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid grey;
+  border-radius: 8px;
+  vertical-align: top;
+  background-color: white;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+.main{
+  margin-left: 450px;
+  margin-top: 20px;
+}
+.list-items{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  padding: 10px;
+  width: 250px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.dlt{
+  margin-left: 100px;
+  padding: 6px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
